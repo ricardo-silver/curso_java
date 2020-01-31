@@ -40,7 +40,7 @@ public class ExercicioPousada {
 
                  System.out.println();
         
-          System.out.println("Busy Rooms: ");
+          System.out.println("**** Busy Rooms ***** ");
 
           for (int i=0; i < pousada.length; i++) {
 
