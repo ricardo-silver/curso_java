@@ -3,10 +3,11 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 import entities.Conta;
+import entities.exceptions.DomainException;
 
 public class ExercicioBanco {
 
-       public static void main(String[] args) {
+       public static void main(String[] args) throws DomainException {
 
              String numeroConta;
              String nomeTitular;
