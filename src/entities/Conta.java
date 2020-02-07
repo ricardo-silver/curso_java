@@ -61,7 +61,7 @@ public class Conta {
 		saldo += valor;
 	}
 
-	public void saque(double valor ) throws DomainException {
+	public void saque(double valor )  {
 		
 		if (valor > getLimite()) {
 			throw new DomainException("Withdraw error: The amount exceeds withdraw limit");
