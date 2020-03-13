@@ -2,10 +2,34 @@ package entities;
 
 public class Product {
 
-	public String name;
-	public double price;
+	private String name;
+	private double price;
 	public int quantity;
 
+	public Product(String name, Double price) {
+		this.name = name;
+		this.price = price;
+	}
+
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Double getPrice() {
+		return price;
+	}
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
 	public double totalValueInStock() {
 		return price* quantity;
 	}

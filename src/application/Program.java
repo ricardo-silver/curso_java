@@ -17,11 +17,11 @@ public class Program {
 		System.out.println("Enter product data: ");
 		System.out.print("Name: ");
 
-		product.name= sc.nextLine();
+		//product.name= sc.nextLine();
 
 		System.out.print("Price: ");
 
-		product.price= sc.nextDouble();
+		//product.price= sc.nextDouble();
 
 		System.out.print("Quantityin stock: ");
 
